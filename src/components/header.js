@@ -13,7 +13,9 @@ class Header extends React.Component {
                     <Link to="/" className="item">
                         All Streams
                     </Link>
-                    <GoogleOAuth/>
+                    <div className="item">
+                        <GoogleOAuth />
+                    </div>
                 </div>
             </div>
         )
